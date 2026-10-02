@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(84, 83, 83);
+    color: white;
+    text-align: center;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    align-items: center;
+    background-color: rgb(134, 133, 133);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+}
+
+.Links {
+    display: flex;
+    gap: 20px;
+}
+
+.Links a {
+    border-radius: 8px;
+    border: solid 1px;
+    padding: 8px 18px;
+    background-color: rgb(134, 133, 133);
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* --- BOTÕES --- */
+.btn-primary {
+    background-color: rgb(134, 133, 133);
+    color: bisque;
+    border: solid 1px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado do link <a> */
+    display: inline-block; /* Garante que o padding e tamanho funcionem corretamente no <a> */
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(134, 133, 133);
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    min-width: 250px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: rgb(134, 133, 133);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}

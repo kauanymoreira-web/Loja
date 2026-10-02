@@ -1,0 +1,87 @@
+/* --- REGRA GLOBAL --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(84, 83, 83);
+    color: white; /* Ajustado para texto branco, já que o fundo é preto */
+    text-align: center;
+}
+
+/* --- NAVBAR (Ficou excelente!) --- */
+.navbar {
+    align-items: center;
+    background-color: rgb(134, 133, 133);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+}
+
+/* NOVO: Para afastar um link do outro na navbar */
+.Links {
+    display: flex;
+    gap: 20px;
+}
+
+.Links a {
+    border-radius: 8px;
+    border: solid 1px;
+    padding: 8px 18px;
+    background-color: rgb(134, 133, 133);
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: rgb(134, 133, 133);
+    color: bisque;
+    border: solid 1px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* --- REGRA OBRIGATÓRIA PARA AS IMAGENS NÃO ENGOLIREM O SITE --- */
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* --- SEÇÕES E CARDS --- */
+section {
+    padding: 20px; /* Corrigido de auto para 20px */
+}
+
+.ecomerce {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.bolsa {
+    display: flex; /* Faltava ativar o Flexbox aqui! */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgb(134, 133, 133);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
